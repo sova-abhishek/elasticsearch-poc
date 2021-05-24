@@ -1,0 +1,1 @@
+SELECT * FROM webapp.PRODUCTS WHERE updated_at > :sql_last_value AND updated_at < NOW() ORDER BY updated_at ASC
